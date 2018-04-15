@@ -5,6 +5,8 @@
   overflow: hidden;
   position: relative;
   width: 100%;
+  -webkit-overflow-scrolling: touch;
+  z-index: $zindex-0;
 
   .carousel-container {
     height: 100%;
@@ -44,7 +46,7 @@
       top: 50%;
       transition: all .4s ease;
       transform: translateY(-50%);
-      z-index: $zindex-2;
+      z-index: $zindex-1;
     }
     .item-prev {
       left: 1rem;
@@ -79,7 +81,7 @@
     position: absolute;
     transform: translateX(-50%);
     width: 10rem;
-    z-index: $zindex-2;
+    z-index: $zindex-1;
 
     .nav-item {
       color: rgba($gray-color-light, .5);
@@ -94,7 +96,7 @@
         background: currentColor;
         content: "";
         display: block;
-        height: $border-width-lg;
+        height: $unit-h;
         position: absolute;
         top: .5rem;
         width: 100%;

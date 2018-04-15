@@ -1,5 +1,68 @@
 ## Spectre.css Changelog
 
+### [v0.5.1](https://github.com/picturepan2/spectre/releases/tag/v0.5.1)
+
+IMPORTANT: Move Autocomplete to the Experimentals
+- Add form checkbox, radio and switch support to Menus
+- Add responsive horizontal form support #375
+- Add Favicons in the docs #398
+- Fix Off-canvas z-index problem #361
+- Fix icons disappearing on group classes on focus
+- Fix Deprecation Warning #396 #356
+- Initial commit of RTL support (not finished)
+
+### [v0.5.0](https://github.com/picturepan2/spectre/releases/tag/v0.5.0)
+
+- IMPORTANT: Restore /dist folder
+- Add Grid nesting example #353
+- Add Form control sizes support
+- Update Off-canvas default behavior and new option available #347
+- Split Mixins
+- Fix Navbar last-child align right bug #346
+- Fix modal doc typo
+- Fix docs examples #348
+
+### [v0.4.7](https://github.com/picturepan2/spectre/releases/tag/v0.4.7)
+
+- Add new button colors (success and error) #227 #241 #342
+- Add overflow-scrolling: touch; CSS for better scrolling
+- Add touch support to Parallax image hover effect
+- Update the Modal example code
+- Fix form horizontal layout spacing
+
+### [v0.4.6](https://github.com/picturepan2/spectre/releases/tag/v0.4.6)
+
+- Add new Sliders example #328
+- Add Table with horizontal scroll support #333
+- Update Calendar event style which makes use of color utilities #326 
+- Define $parallax-fade-color as default variable #332
+- Fix the Docs content mistake
+- Fix breadcrumb-item extra spacing #337
+- Fix comparison slider image responsive bug #338
+
+### [v0.4.5](https://github.com/picturepan2/spectre/releases/tag/v0.4.5)
+
+- Rewrite Off-canvas component
+- Add `active` support to the Off-canvas #308
+- Update the Docs pages
+
+### [v0.4.4](https://github.com/picturepan2/spectre/releases/tag/v0.4.4)
+
+- IMPORTANT: Increase default font sizes to 16px #271
+- Add version number to CSS #288 #289
+
+### [v0.4.3](https://github.com/picturepan2/spectre/releases/tag/v0.4.3)
+
+- Add Icon Sizes #284
+- Add Large Modals #293
+- Update primary color to #5755d9
+- Change Tooltips `white-space` to `pre` #292
+- Encode SVG Data URI (thanks to @mariodev) #297 #298
+- Improve Buttons and Forms small and large variables
+- Improve Filters code
+- Improve gulpfile and package
+- Add Importing Sass Docs
+
 ### [v0.4.2](https://github.com/picturepan2/spectre/releases/tag/v0.4.2)
 
 - Add Off-screen experimental
@@ -16,7 +79,7 @@
 
 ### [v0.4.0](https://github.com/picturepan2/spectre/releases/tag/v0.4.0)
 
-- Switch from LESS to SASS
+- Switch from Less to Sass
 - Add Cursor utilities
 
 ### [v0.3.2](https://github.com/picturepan2/spectre/releases/tag/v0.3.2)

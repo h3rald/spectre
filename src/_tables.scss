@@ -2,13 +2,28 @@
 .table {
   border-collapse: collapse;
   border-spacing: 0;
-  text-align: left;
   width: 100%;
+  @if $rtl == true {
+    text-align: right;
+  } @else {
+    text-align: left;
+  }
 
   &.table-striped {
     tbody {
       tr:nth-of-type(odd) {
         background: $bg-color;
+      }
+    }
+  }
+
+  &,
+  &.table-striped {
+    tbody {
+      tr {
+        &.active {
+          background: $bg-color-dark;
+        }
       }
     }
   }
@@ -23,15 +38,12 @@
     }
   }
 
-  &,
-  &.table-striped {
-    tbody {
-      tr {
-        &.active {
-          background: $bg-color-dark;
-        }
-      }
-    }
+  // Tables with horizontal scrollbar
+  &.table-scroll {
+    display: block;
+    overflow-x: auto;
+    padding-bottom: .75rem;
+    white-space: nowrap;
   }
 
   td,

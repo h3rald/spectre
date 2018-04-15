@@ -4,7 +4,6 @@
   border-radius: $border-radius;
   display: block;
   min-width: 280px;
-  text-align: center;
 
   .calendar-nav {
     align-items: center;
@@ -34,6 +33,7 @@
     border-bottom: $border-width solid $border-color;
     color: $gray-color;
     font-size: $font-size-sm;
+    text-align: center;
   }
 
   .calendar-body {
@@ -52,6 +52,7 @@
       border-radius: 50%;
       color: $gray-color-dark;
       cursor: pointer;
+      font-size: $font-size-sm;
       height: $unit-7;
       line-height: $unit-5;
       outline: none;
@@ -189,15 +190,12 @@
     }
 
     .calendar-event {
-      background: $secondary-color;
       border-radius: $border-radius;
-      color: $primary-color;
       font-size: $font-size-sm;
       display: block;
       margin: $unit-h auto;
       overflow: hidden;
       padding: 3px 4px;
-      text-align: left;
       text-overflow: ellipsis;
       white-space: nowrap;
     }

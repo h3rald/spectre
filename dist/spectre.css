@@ -286,8 +286,8 @@ html {
 }
 
 body {
-  background: #e6e7ea;
-  color: #b7bfc4;
+  background: #020203;
+  color: #eff1f2;
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
   font-size: .8rem;
   overflow-x: hidden;
@@ -398,7 +398,7 @@ mark {
   background: #ffe9b3;
   border-bottom: .05rem solid #ffd367;
   border-radius: .1rem;
-  color: #b7bfc4;
+  color: #eff1f2;
   padding: .05rem .1rem 0;
 }
 
@@ -521,16 +521,16 @@ html:lang(ko),
 }
 
 .table.table-striped tbody tr:nth-of-type(odd) {
-  background: #efeff1;
+  background: #0a0a0b;
 }
 
 .table tbody tr.active,
 .table.table-striped tbody tr.active {
-  background: #e6e7ea;
+  background: #020203;
 }
 
 .table.table-hover tbody tr:hover {
-  background: #e6e7ea;
+  background: #020203;
 }
 
 .table.table-scroll {
@@ -752,7 +752,7 @@ html:lang(ko),
 
 .btn.btn-clear:focus,
 .btn.btn-clear:hover {
-  background: rgba(239, 239, 241, .5);
+  background: rgba(10, 10, 11, .5);
   opacity: .95;
 }
 
@@ -843,7 +843,7 @@ legend {
   background-image: none;
   border: .05rem solid #b8b9c2;
   border-radius: .1rem;
-  color: #b7bfc4;
+  color: #eff1f2;
   display: block;
   font-size: .8rem;
   height: 1.8rem;
@@ -1074,7 +1074,7 @@ textarea.form-input.input-sm {
 
 .form-checkbox input:active + .form-icon,
 .form-radio input:active + .form-icon {
-  background: #e6e7ea;
+  background: #020203;
 }
 
 .form-checkbox .form-icon {
@@ -1162,7 +1162,7 @@ textarea.form-input.input-sm {
 }
 
 .form-switch input:active + .form-icon::before {
-  background: #efeff1;
+  background: #0a0a0b;
 }
 
 .input-group {
@@ -1171,7 +1171,7 @@ textarea.form-input.input-sm {
 }
 
 .input-group .input-group-addon {
-  background: #efeff1;
+  background: #0a0a0b;
   border: .05rem solid #b8b9c2;
   border-radius: .1rem;
   line-height: 1.2rem;
@@ -1323,18 +1323,18 @@ textarea.form-input.input-sm {
 .form-input.disabled,
 .form-select:disabled,
 .form-select.disabled {
-  background-color: #e6e7ea;
+  background-color: #020203;
   cursor: not-allowed;
   opacity: .5;
 }
 
 .form-input[readonly] {
-  background-color: #efeff1;
+  background-color: #0a0a0b;
 }
 
 input:disabled + .form-icon,
 input.disabled + .form-icon {
-  background: #e6e7ea;
+  background: #020203;
   cursor: not-allowed;
   opacity: .5;
 }
@@ -1360,9 +1360,9 @@ input.disabled + .form-icon {
 }
 
 .label {
-  background: #e6e7ea;
+  background: #020203;
   border-radius: .1rem;
-  color: #c5cbd0;
+  color: #fdfefe;
   display: inline-block; 
   line-height: 1.25;
   padding: .1rem .2rem;
@@ -1410,7 +1410,7 @@ code {
 
 .code {
   border-radius: .1rem;
-  color: #b7bfc4;
+  color: #eff1f2;
   position: relative;
 }
 
@@ -1424,7 +1424,7 @@ code {
 }
 
 .code code {
-  background: #efeff1;
+  background: #0a0a0b;
   color: inherit;
   display: block;
   line-height: 1.5;
@@ -2236,7 +2236,7 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .bar {
-  background: #e6e7ea;
+  background: #020203;
   border-radius: .1rem;
   display: flex;
   display: -ms-flexbox;
@@ -2289,7 +2289,7 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .bar-slider .bar-item:not(:last-child):first-child {
-  background: #e6e7ea;
+  background: #020203;
   z-index: 1;
 }
 
@@ -2358,7 +2358,7 @@ summary.accordion-header::-webkit-details-marker {
 
 .chip {
   align-items: center;
-  background: #e6e7ea;
+  background: #020203;
   border-radius: 5rem;
   display: inline-flex;
   display: -ms-inline-flexbox;
@@ -2423,7 +2423,7 @@ summary.accordion-header::-webkit-details-marker {
 }
 
 .empty {
-  background: #efeff1;
+  background: #0a0a0b;
   border-radius: .1rem;
   color: black;
   padding: 3.2rem 1.6rem; 
@@ -2539,7 +2539,7 @@ summary.accordion-header::-webkit-details-marker {
 
 .modal:target .modal-overlay,
 .modal.active .modal-overlay {
-  background: rgba(239, 239, 241, .75);
+  background: rgba(10, 10, 11, .75);
   bottom: 0;
   cursor: default;
   display: block;
@@ -3164,16 +3164,16 @@ a.text-light:visited {
 }
 
 .text-dark {
-  color: #b7bfc4 !important;
+  color: #eff1f2 !important;
 }
 
 a.text-dark:focus,
 a.text-dark:hover {
-  color: #a9b2b9;
+  color: #e1e4e7;
 }
 
 a.text-dark:visited {
-  color: #c5cbd0;
+  color: #fdfefe;
 }
 
 .text-success {
@@ -3230,7 +3230,8 @@ a.text-error:visited {
 }
 
 .bg-gray {
-  background: #efeff1 !important;
+  background: #0a0a0b !important;
+  color: #a9b2b9;
 }
 
 .bg-success {

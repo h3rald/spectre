@@ -23,7 +23,7 @@ $gray-color-light: lighten($gray-color, 20%) !default;
 $border-color: lighten($dark-color, 65%) !default;
 $border-color-dark: darken($border-color, 10%) !default;
 $border-color-light: lighten($border-color, 8%) !default;
-$bg-color: lighten($dark-color, 75%) !default;
+$bg-color: darken($dark-color, 15%) !default;
 $bg-color-dark: darken($bg-color, 3%) !default;
 $bg-color-light: $light-color !default;
 
@@ -36,7 +36,7 @@ $error-color: #e85600 !default;
 $code-color: lighten($primary-color, 25%) !default;
 $highlight-color: #ffe9b3 !default;
 $body-bg: $bg-color-dark !default;
-$body-font-color: lighten($light-color, 5%) !default;
+$body-font-color: lighten($light-color, 25%) !default;
 $link-color: $primary-color !default;
 $link-color-dark: darken($link-color, 10%) !default;
 $link-color-light: lighten($link-color, 10%) !default;

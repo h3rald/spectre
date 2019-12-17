@@ -286,8 +286,8 @@ html {
 }
 
 body {
-  background: #a9b2b9;
-  color: #393a42;
+  background: #e6e7ea;
+  color: #b7bfc4;
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
   font-size: .8rem;
   overflow-x: hidden;
@@ -398,7 +398,7 @@ mark {
   background: #ffe9b3;
   border-bottom: .05rem solid #ffd367;
   border-radius: .1rem;
-  color: #393a42;
+  color: #b7bfc4;
   padding: .05rem .1rem 0;
 }
 
@@ -843,7 +843,7 @@ legend {
   background-image: none;
   border: .05rem solid #b8b9c2;
   border-radius: .1rem;
-  color: #393a42;
+  color: #b7bfc4;
   display: block;
   font-size: .8rem;
   height: 1.8rem;
@@ -1362,7 +1362,7 @@ input.disabled + .form-icon {
 .label {
   background: #e6e7ea;
   border-radius: .1rem;
-  color: #45464f;
+  color: #c5cbd0;
   display: inline-block; 
   line-height: 1.25;
   padding: .1rem .2rem;
@@ -1400,9 +1400,9 @@ input.disabled + .form-icon {
 }
 
 code {
-  background: #fcf2f2;
+  background: white;
   border-radius: .1rem;
-  color: #d73e48;
+  color: #96b9e0;
   font-size: 85%; 
   line-height: 1.25;
   padding: .1rem .2rem;
@@ -1410,7 +1410,7 @@ code {
 
 .code {
   border-radius: .1rem;
-  color: #393a42;
+  color: #b7bfc4;
   position: relative;
 }
 
@@ -3164,16 +3164,16 @@ a.text-light:visited {
 }
 
 .text-dark {
-  color: #393a42 !important;
+  color: #b7bfc4 !important;
 }
 
 a.text-dark:focus,
 a.text-dark:hover {
-  color: #2d2e34;
+  color: #a9b2b9;
 }
 
 a.text-dark:visited {
-  color: #45464f;
+  color: #c5cbd0;
 }
 
 .text-success {
